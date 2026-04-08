@@ -3,6 +3,8 @@ package oop.association;
 import oop.association.aggregation.Course;
 import oop.association.aggregation.Subject;
 import oop.association.aggregation.Teacher;
+import oop.association.composition.Car;
+import oop.association.composition.Engine;
 
 public class App {
 
@@ -21,6 +23,13 @@ public class App {
         teacher.setCourse(java);
 
         System.out.println(teacher);
+
+        Car car = new Car();
+        car.setEngine(
+                new Engine()
+        );
+
+
 
     }
 
