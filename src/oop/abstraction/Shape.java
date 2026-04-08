@@ -20,7 +20,4 @@ public abstract class Shape {
         return type;
     }
 
-    public abstract double area();
-    public abstract double perimeter();
-
 }

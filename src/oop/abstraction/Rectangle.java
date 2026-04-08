@@ -1,6 +1,6 @@
 package oop.abstraction;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Measurable {
 
     private Double length; // long side
     private Double width; // short side
